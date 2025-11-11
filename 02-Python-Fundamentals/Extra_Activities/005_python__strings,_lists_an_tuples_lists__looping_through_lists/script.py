@@ -29,7 +29,7 @@ students = ['Tom', 'Alice', 'Jorge', 'Sara', 'Paul', 'Sara']
 students_wo_Sara = []
 
 for student in students:
-    if student != "Sara":
+    if student is not "Sara":
         students_wo_Sara.append(student)
         
 print("Step 1.4: removed 'Sara' from students list: ", students_wo_Sara)
